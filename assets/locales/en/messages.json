@@ -1,0 +1,11 @@
+{
+    "appName": {
+        "message": "tracker-blocker"
+    },
+    "appShortName": {
+        "message": "tracker-blocker"
+    },
+    "appDescription": {
+        "message": "Blocks internet trackers"
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blocked Trackers on Current Tab</title>
+  <style>
+    body {
+      width: 300px;
+      min-height: 150px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .scrollable-div {
+      width: 300px; /* Set your desired width */
+      white-space: nowrap; /* Prevent text from wrapping */
+      overflow-x: auto; /* Enable horizontal scroll */
+      border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+      padding: 10px; /* Optional: Add padding for better styling */
+    }
+    .scrollable-content {
+      display: inline-block; /* Make sure each item stays in one line */
+      margin-right: 10px; /* Optional: Add margin between items */
+    }
+  </style>
+</head>
+<body>
+    <div class="h2"> Trackers Blocked on Current Tab</div>
+    <div class="scrollable-div">
+        <pre id="blockedTrackers"></pre>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
